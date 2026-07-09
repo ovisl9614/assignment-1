@@ -1,0 +1,17 @@
+.mynav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+}
+
+.btn {
+    color: white;
+    background-color: #1D4ED8 ;
+    padding: 14px;
+    border-radius: 4px;
+}
+
+.nav-div-middle {
+    display: flex;
+    justify-content: space-evenly;
+}
