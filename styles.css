@@ -67,6 +67,7 @@ body {
     margin-right: 80px auto;
     margin-bottom: 20px;
     margin-top: 20px;
+   
 
 }
 
@@ -166,6 +167,9 @@ hr {
 
 
 }
+.attend {
+   color: rgb(41, 4, 252);
+}
 
 .price-card li {
     
@@ -199,6 +203,58 @@ hr {
     transform: translateX(-2px);
 }
 
+
+/* AI Section */
+
+.benefits {
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+
+}
+
+.benefit-subtitle {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.benefit-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.benefit-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12);
+}
+
+.icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: rgb(240, 177, 4, 0.933);
+
+}
+
+.benefit-card h3 {
+    margin-bottom: 15px;
+
+}
+
+.benefit-card p {
+    color: rgba(240, 177, 4, 0.933);
+    line-height: 1.7;
+}
+
+
+/* footer */
 
 .footer {
     display: flex;
