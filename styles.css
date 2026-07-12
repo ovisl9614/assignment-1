@@ -13,12 +13,19 @@ body {
   
 }
 
+.hero-desc {
+    font-size: 22px;
+
+}
+
 .btn {
     color: white;
     background-color: #1D4ED8 ;
-    padding: 15px 35px;
+    padding: 20px 50px;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 24px;
+
 }
 
 
@@ -26,28 +33,39 @@ body {
     display: flex;
     list-style: none;
     gap: 30px;
-    padding: 10px;
+    padding: 20px;
     margin: 0;
     
 }
 
-.div-text img {
-    text-decoration: ;
-    width: 100%;
-    height: 786px;
+.div-text {
     position: relative;
-    display: block;
+    height: 786px;
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-text img {
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    /* height: 786px; */
+    
     object-fit: cover;
 }
 
 .div-para {
-    position: absolute;
-    top: 30%;
-    left: 50%;
+
     text-align: center;
     color: white;
-    width: 700px;
-   transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 780px;
+   
 }
 
 .div-para h1 {
@@ -56,19 +74,24 @@ body {
     margin-bottom: 20px;
 }
 
+
+.speakers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    margin-right: 80px auto;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    
+
+}
+
 .sec3 {
     text-align: center ;
     color: #000102;
-}
-
-.speakers {
-    width: 90%;
-    max-width: 1200px;
-    margin-right: 80px auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-   
-
+    font-size: 56px;
 }
 
 .speaker-carrier {
@@ -109,9 +132,13 @@ body {
 
 .pricing {
     text-align: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: 10px 20px;
+    /* width: 90%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: 80px 20px;
 }
 
 .pricing h1 {
@@ -132,8 +159,8 @@ body {
 }
 
 .price-card {
-    background: white;
-    border: 1px soilid  #ddd;
+    background: #F8F9FB;
+    border: 1px solid  #E5E7EB;
     border-radius: 10px;
     padding: 30px;
     text-align: left;
@@ -190,9 +217,15 @@ hr {
 }
 
 .featured button {
-    background: #0D1B2A;
+    background: #2563EB;
     color: white;
     border: none;
+}
+
+
+.btn-left {
+    border: 1px;
+    color: #2563EB;
 }
 
 .price-card {
@@ -256,8 +289,62 @@ hr {
 
 /* footer */
 
-.footer {
+/* Footer */
+
+footer{
+    background-color:#0f172a;
+    color:white;
+    padding:30px 80px;
+    margin-top:80px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo h2{
+    font-size:24px;
+}
+
+.social-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:16px;
+    
+
+}
+
+.social-links a img {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links a:hover{
+    color:#2563eb;
+}
+
+hr{
+    margin:25px 0;
+    border:0;
+    border-top:1px solid gray;
+}
+
+.footer-bottom{
+    text-align:center;
+    font-size:15px;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+
+
+/* .footer {
     display: flex;
     justify-content: space-between;
     background-color: #0D1B2A;
-}
+} */
