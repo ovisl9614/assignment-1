@@ -102,8 +102,6 @@ body {
 
 }
 
-
-
 .card-info {
     font-size: 24px;
     margin-bottom: 10px;
@@ -336,13 +334,8 @@ hr{
 }
 
 .footer-logo img {
-    width: 60px;
+    width: 80px;
 }
 
 
 
-/* .footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #0D1B2A;
-} */
